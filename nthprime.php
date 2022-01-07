@@ -2,7 +2,7 @@
 
 for ($primeNumber= 2; $primeNumber<= 100; $primeNumber++) {
     if (getPrimo($primeNumber)) {
-        //echo "$primeNumber<br>";
+       // echo "$primeNumber<br>";
     } 
     getPrimo($primeNumber);
 }
@@ -22,11 +22,11 @@ if ($contador==2) {
 
 }
 
-$primeNumberArray = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29];
+$primeNumberArray = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97];
 
 
 for ($position=1; $position<=100; $position++) {
-    //echo "$position<br>";
+    // echo "$position<br>";
 }
 
 $position = $_POST['posicion'] - 1;
