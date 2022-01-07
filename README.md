@@ -2,22 +2,7 @@
 
 - Fuente: https://exercism.org/tracks/php/exercises/nth-prime 
 
-## Requiered
-
-- PHP 8.0
-- Composer installed
-
-## Install
-
-- composer install
-
-## Run Tests
-
-- vendor/bin/phpunit
-or
-- composer test
-
-### Dado el array de todos los números primos:
+## Dado el array de todos los números primos:
 
 - Se define número primo como aquel número entero mayor de 1 que es "solo" divisible entre él mismo y entre 1. Si los dividimos entre otros números diferentes va a resultar un número que no es entero.
 
