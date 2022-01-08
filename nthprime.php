@@ -1,5 +1,20 @@
 <?php
 
+function getPrimo($num) {
+    $contador = 0;
+    for ($primeNumber=1; $primeNumber<=$num; $primeNumber++) {
+        if ($num%$primeNumber==0) {
+            $contador = $contador + 1;
+        }
+    }
+   if ($contador==2) {
+    return true;
+   } else {
+       return false;
+   }
+   
+   }
+
 for ($primeNumber= 2; $primeNumber<= 100; $primeNumber++) {
     if (getPrimo($primeNumber)) {
        // echo "$primeNumber<br>";
@@ -7,20 +22,6 @@ for ($primeNumber= 2; $primeNumber<= 100; $primeNumber++) {
     getPrimo($primeNumber);
 }
 
-function getPrimo($num) {
- $contador = 0;
- for ($primeNumber=1; $primeNumber<=$num; $primeNumber++) {
-     if ($num%$primeNumber==0) {
-         $contador = $contador + 1;
-     }
- }
-if ($contador==2) {
- return true;
-} else {
-    return false;
-}
-
-}
 
 $primeNumberArray = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97];
 
