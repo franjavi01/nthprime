@@ -1,5 +1,12 @@
 <?php
 
+declare(strict_types=1);
+
+function prime(int $number)
+{
+    throw new \BadFunctionCallException("Implement the prime function");
+}
+
 function getPrimo($num) {
     $contador = 0;
     for ($primeNumber=1; $primeNumber<=$num; $primeNumber++) {
@@ -34,5 +41,3 @@ $position = $_POST['posicion'] - 1;
 
 echo "<h1>El número primo que ocupa esa posición es $primeNumberArray[$position]</h1>"; 
 echo "<a href='./index.php'><< Atrás</a>";
-
-?>

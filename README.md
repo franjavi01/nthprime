@@ -11,3 +11,10 @@
 - Ejemplo: 
     Array de números primos = (2, 3, 5, 7, 11, 13, 17, 19...)
     Si el usuario introduce el número 6, entonces el sistema devolvera el número 13 porque ese número está en la posición 6ª dentro del array
+
+### Pruebas
+Se han añadido archivos a través de: 
+https://github.com/exercism/php/tree/main/exercises/practice/nth-prime 
+
+Para comprobación de errores a traves de terminal: 
+$ vendor/bin/phpunit
