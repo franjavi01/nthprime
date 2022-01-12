@@ -22,15 +22,19 @@ function getPrimo($num) {
    
    }
 
+$primeNumberArray = [];
+
 for ($primeNumber= 2; $primeNumber<= 100; $primeNumber++) {
     if (getPrimo($primeNumber)) {
-       // echo "$primeNumber<br>";
+
+    array_push($primeNumberArray, $primeNumber);
+     // echo "$primeNumber, ";
     } 
-    getPrimo($primeNumber);
+    //getPrimo($primeNumber);
 }
 
 
-$primeNumberArray = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97];
+//$primeNumberArray = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97];
 
 
 for ($position=1; $position<=100; $position++) {

@@ -12,7 +12,8 @@ class NthPrimeTest extends PHPUnit\Framework\TestCase
 
     public function testFirstPrime(): void
     {
-        $this->assertEquals(13, getPrimo(6));
+    
+        $this->assertEquals(6, getPrimo(13));
     }
     
 }
